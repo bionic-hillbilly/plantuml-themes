@@ -1,0 +1,47 @@
+@startuml style-template
+
+skinparam DefaultFontName Helvetica Neue
+skinparam DefaultFontSize 16
+skinparam DefaultFontColor Gray
+skinparam DefaultTextAlignment Center
+skinparam ArrowColor Silver
+skinparam ArrowFontColor Gray
+skinparam ArrowFontSize 15
+skinparam Shadowing false
+
+skinparam actor{
+    BorderColor Gray
+    BackgroundColor White
+    FontColor Gray
+}
+
+skinparam rectangle{
+    RoundCorner 15
+    BorderColor Transparent
+    BorderThickness 3
+    BackgroundColor SteelBlue
+    FontColor White
+}
+
+skinparam node {
+    BorderColor Gray
+    FontColor Gray
+}
+skinparam component{
+    BorderColor White
+    BackgroundColor SteelBlue
+    FontColor White
+}
+
+skinparam package{
+    FontColor Gray
+    BorderColor Gray
+}
+
+skinparam usecase{
+    BorderColor White
+    BackgroundColor LightBlue
+    FontColor White
+}
+
+@enduml
