@@ -1,0 +1,129 @@
+@startuml dark-theme
+
+!$TEXT = "LightGray"
+!$BORDER =  "Gray"
+!$PRIMARY_BACKGROUND = "#212529"
+!$SECONDARY_BACKGROUND = "#2e3440"
+!$OPPOSITE_BACKGROUND = "White"
+
+skinparam DefaultFontName QuickSand
+skinparam BackgroundColor $PRIMARY_BACKGROUND
+skinparam DefaultFontColor $TEXT
+skinparam DefaultTextAlignment Center
+skinparam ArrowColor $TEXT
+skinparam ArrowFontColor $TEXT
+skinparam Shadowing false
+skinparam IconIEMandatoryColor $OPPOSITE_BACKGROUND
+skinparam CircledCharacterFontColor $PRIMARY_BACKGROUND
+skinparam CircledCharacterFontName QuickSand
+skinparam SequenceLifeLineBorderColor $TEXT
+
+skinparam ActorBackgroundColor transparent
+skinparam ActorBorderColor $BORDER
+skinparam ActorFontColor $TEXT
+
+skinparam RectangleBackgroundColor $SECONDARY_BACKGROUND
+skinparam RectangleBorderColor $BORDER
+skinparam RectangleFontColor $TEXT
+
+skinparam ClassHeaderBackgroundColor $SECONDARY_BACKGROUND
+skinparam ClassBackgroundColor $SECONDARY_BACKGROUND
+skinparam ClassBorderColor $BORDER
+skinparam ClassArrowColor $TEXT
+skinparam ClassFontStyle Bold
+skinparam ClassFontColor $TEXT
+skinparam ClassAttributeFontColor $TEXT
+skinparam ClassAttributeFontName QuickSand
+skinparam ClassAttributeIconSize 0
+
+skinparam NoteBorderColor $PRIMARY_BACKGROUND
+skinparam NoteBackgroundColor $TEXT
+skinparam NoteFontColor  $PRIMARY_BACKGROUND
+
+skinparam ComponentBackgroundColor $SECONDARY_BACKGROUND
+skinparam ComponentBorderColor $BORDER
+skinparam ComponentFontColor $TEXT
+
+skinparam UseCaseBackgroundColor $SECONDARY_BACKGROUND
+skinparam UseCaseBorderColor $BORDER
+skinparam UseCaseFontColor $TEXT
+
+skinparam ParticipantBackgroundColor $SECONDARY_BACKGROUND
+skinparam ParticipantBorderColor $BORDER
+skinparam ParticipantFontColor $TEXT
+
+skinparam BoundaryBackgroundColor $SECONDARY_BACKGROUND
+skinparam BoundaryBorderColor $BORDER
+skinparam BoundaryFontColor $TEXT
+
+skinparam ControlBackgroundColor $SECONDARY_BACKGROUND
+skinparam ControlBorderColor $BORDER
+skinparam ControlFontColor $TEXT
+
+skinparam EntityBackgroundColor $SECONDARY_BACKGROUND
+skinparam EntityBorderColor $BORDER
+skinparam EntityFontColor $TEXT
+
+skinparam DatabaseBackgroundColor $SECONDARY_BACKGROUND
+skinparam DatabaseBorderColor $BORDER
+skinparam DatabaseFontColor $TEXT
+
+skinparam CollectionsBackgroundColor $SECONDARY_BACKGROUND
+skinparam CollectionsBorderColor $BORDER
+skinparam CollectionsFontColor $TEXT
+
+skinparam PackageBackgroundColor transparent
+skinparam PackageBorderColor $BORDER
+
+skinparam CardBackgroundColor $SECONDARY_BACKGROUND
+skinparam CardBorderColor $BORDER
+skinparam CardFontColor $TEXT
+
+skinparam ObjectBackgroundColor $SECONDARY_BACKGROUND
+skinparam ObjectBorderColor $BORDER
+skinparam ObjectFontColor $TEXT
+
+skinparam StorageBackgroundColor $SECONDARY_BACKGROUND
+skinparam StorageBorderColor $BORDER
+skinparam StorageFontColor $TEXT
+
+skinparam QueueBackgroundColor $SECONDARY_BACKGROUND
+skinparam QueueBorderColor $BORDER
+skinparam QueueFontColor $TEXT
+
+skinparam StateStartColor $TEXT
+skinparam StateBorderColor $BORDER
+skinparam StateBackgroundColor $PRIMARY_BACKGROUND
+skinparam StateFontColor $TEXT
+skinparam StateEndColor $TEXT
+
+skinparam InterfaceBackgroundColor $OPPOSITE_BACKGROUND
+skinparam InterfaceBorderColor $BORDER
+
+skinparam ActivityBarColor $OPPOSITE_BACKGROUND
+
+skinparam ArtifactBackgroundColor $SECONDARY_BACKGROUND
+skinparam ArtifactBorderColor $BORDER
+skinparam ArtifactFontColor $TEXT
+
+skinparam FolderBackgroundColor transparent
+skinparam FolderBorderColor $BORDER
+skinparam FolderFontColor $TEXT
+
+skinparam StackBackgroundColor transparent
+skinparam StackBorderColor $BORDER
+skinparam StackFontColor $TEXT
+
+skinparam FileBackgroundColor $SECONDARY_BACKGROUND
+skinparam FileBorderColor $BORDER
+skinparam FileFontColor $TEXT
+
+skinparam FrameBackgroundColor transparent
+skinparam FrameBorderColor $BORDER
+skinparam FrameFontColor $TEXT
+
+skinparam NodeBackgroundColor transparent
+skinparam NodeBorderColor $BORDER
+skinparam NodeFontColor $TEXT
+
+@enduml

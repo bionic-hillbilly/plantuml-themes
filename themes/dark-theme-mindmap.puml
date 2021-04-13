@@ -1,0 +1,26 @@
+@startuml dark-theme-mindmap-style
+
+!$TEXT = "LightGray"
+!$BORDER =  "Gray"
+!$PRIMARY_BACKGROUND = "#212529"
+!$SECONDARY_BACKGROUND = "#2e3440"
+
+skinparam DefaultFontName QuickSand
+skinparam BackgroundColor $PRIMARY_BACKGROUND
+skinparam DefaultFontColor $TEXT
+skinparam DefaultTextAlignment Center
+skinparam ArrowColor $TEXT
+skinparam ArrowFontColor $TEXT
+skinparam Shadowing false
+
+<style>
+mindmapDiagram {
+    node{
+        BackgroundColor $SECONDARY_BACKGROUND
+        LineColor $BORDER
+        FontColor $TEXT
+    }
+}
+</style>
+
+@enduml
