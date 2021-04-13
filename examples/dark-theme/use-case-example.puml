@@ -1,0 +1,35 @@
+@startuml use-case-example
+
+!include ../../themes/dark-theme.puml
+
+left to right direction
+actor Guest as g << Human >>
+package Professional {
+  actor Chef as c
+  actor "Food Critic" as fc
+}
+package Restaurant {
+  usecase UC1 as "You can use
+several lines to define your usecase.
+You can also use separators.
+--
+Several separators are possible.
+==
+And you can add titles:
+..Conclusion..
+This allows large description."
+
+  usecase "Pay for Food" as UC2
+  usecase "Drink" as UC3
+  usecase "Review" as UC4
+}
+fc --> UC4 : reviews
+g --> UC1
+g --> UC2
+g --> UC3
+
+note left of g
+  A note can also
+  be on several lines
+end note
+@enduml
